@@ -7,9 +7,8 @@ import jakarta.persistence.Id;
 public class Arreglo {
 
     @Id
-    public Integer ARREGLO;
-    public Integer DIGITO;
-    public String LETRA;
+    public int Arreglo;
+    public int Digito;    
 
     public Arreglo() {
     };

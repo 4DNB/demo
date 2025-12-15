@@ -1,4 +1,4 @@
-package com.example.demo.Services.Recibo;
+package com.example.demo.Services.Arreglo;
 
 import com.example.demo.Models.Arreglo.Arreglo;
 

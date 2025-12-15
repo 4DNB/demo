@@ -18,7 +18,7 @@ public class ArregloController {
     }
 
     @GetMapping("")
-    public Iterable<com.example.demo.Models.Arreglo.Arreglo> d() {
+    public Iterable<Arreglo> d() {
 
         Iterable<Arreglo> a = _service.findAll();
 

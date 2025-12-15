@@ -1,4 +1,4 @@
-package com.example.demo.Services.Recibo;
+package com.example.demo.Services.Arreglo;
 
 import org.springframework.stereotype.Service;
 import com.example.demo.Repository.ArregloRepository;
