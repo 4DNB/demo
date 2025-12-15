@@ -4,17 +4,23 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.Models.ClassA;
+import com.example.demo.Models.Recibos.ARREGLO;
+import com.example.demo.Repository.ReciboRepository;
 
 @RestController
 @RequestMapping(path = "/recibo")
 public class RecibosController {
 
-    @GetMapping("/")
-    public ClassA d() {
+    private ReciboRepository _service;
 
-        ClassA a = new ClassA();
-        a.x = "VALOR X";
+    public RecibosController(ReciboRepository service) {
+        _service = service;
+    }
+
+    @GetMapping("/")
+    public Iterable<ARREGLO> d() {
+
+        Iterable<ARREGLO> a = _service.findAll();
 
         return a;
     }

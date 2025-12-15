@@ -2,10 +2,11 @@ package com.example.demo.Repository;
 
 import org.springframework.data.repository.Repository;
 
-import com.example.demo.Models.Recibos.PKRecibos;
+import com.example.demo.Models.Recibos.ARREGLO;
 
-// public interface ReciboRepository extends Repository<Recibos, PKRecibos> {
+@org.springframework.stereotype.Repository
+public interface ReciboRepository extends Repository<ARREGLO, Integer> {
     
-//     Iterable<Recibos> findAll();
+    Iterable<ARREGLO> findAll();
 
-// }
+}
