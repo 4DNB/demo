@@ -1,11 +1,9 @@
 package com.example.demo.Services.Recibo;
 
 import org.springframework.stereotype.Service;
+import com.example.demo.Repository.ArregloRepository;
 
-import com.example.demo.Models.Recibos.ARREGLO;
-import com.example.demo.Repository.ReciboRepository;
-
-// @Service
+// @Servicew
 // public class ReciboService implements IReciboService {
 
 //     private ReciboRepository _repository;
